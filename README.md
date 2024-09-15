@@ -6,15 +6,15 @@ ROS2 실습코드
 - 아래에 src폴더에 소스코드가 들어가 있다.
 - workspace 에서 colcon build --package-select <package-name>을 입력하면 해당 package만 빌드하게 된다
 
-        $ colcon build --package-select imu_publisher
+      colcon build --package-select imu_publisher
 
 - workspace 에서 colcon build 을 입력하면 전체 패키지 빌드하게 된다
 
-        $ colcon build
+      colcon build
 
 - /install, /build, /log 폴더 등이 생성이 되며
   
-      $ source install/setup.bash
+      source install/setup.bash
 
  - 실행을 하면 패키지의 node를 실행 할수 있다.
 
@@ -30,10 +30,10 @@ ROS2 실습코드
 
   #### 실행 순서
    ##### ros2 run  실행
-      $ ros2 run imu_publisher imu_publisher
+    ros2 run imu_publisher imu_publisher
     
    ##### 다른 터미널에서 rviz2 실행
-      $ rviz2
+    rviz2
   
    - Global Options 에서 Fixed Frame 을 imu_frame 으로 입력
    - Displays 밑에 탭에서 add  하여   By topic를 선택
