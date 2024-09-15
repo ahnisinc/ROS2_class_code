@@ -1,0 +1,37 @@
+[0.747s] Invoking command in '/home/i/ros2_ws/src/imu_publisher': PYTHONPATH=/home/i/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/i/ros2_ws/build/imu_publisher/build install --record /home/i/ros2_ws/build/imu_publisher/install.log --single-version-externally-managed install_data
+[0.880s] running egg_info
+[0.880s] creating ../../build/imu_publisher/imu_publisher.egg-info
+[0.880s] writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt
+[0.880s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[0.881s] reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.889s] running build_py
+[0.889s] creating /home/i/ros2_ws/build/imu_publisher/build
+[0.889s] creating /home/i/ros2_ws/build/imu_publisher/build/lib
+[0.889s] creating /home/i/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[0.889s] copying imu_publisher/__init__.py -> /home/i/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[0.889s] copying imu_publisher/imu_publisher.py -> /home/i/ros2_ws/build/imu_publisher/build/lib/imu_publisher
+[0.889s] running install
+[0.890s] running install_lib
+[0.890s] creating /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[0.890s] copying /home/i/ros2_ws/build/imu_publisher/build/lib/imu_publisher/__init__.py -> /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[0.890s] copying /home/i/ros2_ws/build/imu_publisher/build/lib/imu_publisher/imu_publisher.py -> /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[0.890s] byte-compiling /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/__init__.py to __init__.cpython-310.pyc
+[0.890s] byte-compiling /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/imu_publisher.py to imu_publisher.cpython-310.pyc
+[0.890s] running install_data
+[0.890s] creating /home/i/ros2_ws/install/imu_publisher/share/ament_index
+[0.890s] creating /home/i/ros2_ws/install/imu_publisher/share/ament_index/resource_index
+[0.890s] creating /home/i/ros2_ws/install/imu_publisher/share/ament_index/resource_index/packages
+[0.890s] copying resource/imu_publisher -> /home/i/ros2_ws/install/imu_publisher/share/ament_index/resource_index/packages
+[0.890s] copying package.xml -> /home/i/ros2_ws/install/imu_publisher/share/imu_publisher
+[0.890s] running install_egg_info
+[0.891s] Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.0-py3.10.egg-info
+[0.892s] running install_scripts
+[0.911s] Installing imu_publisher script to /home/i/ros2_ws/install/imu_publisher/lib/imu_publisher
+[0.913s] writing list of installed files to '/home/i/ros2_ws/build/imu_publisher/install.log'
+[0.934s] Invoked command in '/home/i/ros2_ws/src/imu_publisher' returned '0': PYTHONPATH=/home/i/ros2_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/i/ros2_ws/build/imu_publisher/build install --record /home/i/ros2_ws/build/imu_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,57 @@
+running egg_info
+creating ../../build/jdcobot_100_description/jdcobot_100_description.egg-info
+writing ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/dependency_links.txt
+writing entry points to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/entry_points.txt
+writing requirements to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/requires.txt
+writing top-level names to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/top_level.txt
+writing manifest file '../../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/i/ros2_ws/build/jdcobot_100_description/build
+creating /home/i/ros2_ws/build/jdcobot_100_description/build/lib
+creating /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description
+copying jdcobot_100_description/__init__.py -> /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description
+copying jdcobot_100_description/test_ikpy.py -> /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description
+copying jdcobot_100_description/jdcobot_control.py -> /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description
+copying jdcobot_100_description/js_5_pub_test.py -> /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description
+running install
+running install_lib
+creating /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+copying /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description/__init__.py -> /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+copying /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description/test_ikpy.py -> /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+copying /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description/jdcobot_control.py -> /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+copying /home/i/ros2_ws/build/jdcobot_100_description/build/lib/jdcobot_100_description/js_5_pub_test.py -> /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description
+byte-compiling /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/test_ikpy.py to test_ikpy.cpython-310.pyc
+byte-compiling /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/jdcobot_control.py to jdcobot_control.cpython-310.pyc
+byte-compiling /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description/js_5_pub_test.py to js_5_pub_test.cpython-310.pyc
+running install_data
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/ament_index
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/ament_index/resource_index
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/ament_index/resource_index/packages
+copying resource/jdcobot_100_description -> /home/i/ros2_ws/install/jdcobot_100_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/launch
+copying launch/display_launch.py -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/launch
+copying launch/gazebo_launch.py -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/launch
+copying launch/test_1_launch.py -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/launch
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+copying urdf/jdcobot_100_description.urdf -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+copying urdf/jdcobot_100_description.csv -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/urdf
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/rviz
+copying rviz/rviz_set.rviz -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/rviz
+creating /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+copying meshes/link_2.STL -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+copying meshes/link_1.STL -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+copying meshes/link_4.STL -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+copying meshes/base_link.STL -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+copying meshes/link_3.STL -> /home/i/ros2_ws/install/jdcobot_100_description/share/jdcobot_100_description/meshes
+running install_egg_info
+Copying ../../build/jdcobot_100_description/jdcobot_100_description.egg-info to /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description-1.0.0-py3.10.egg-info
+running install_scripts
+Installing jdcobot_control script to /home/i/ros2_ws/install/jdcobot_100_description/lib/jdcobot_100_description
+Installing js_5_pub_test script to /home/i/ros2_ws/install/jdcobot_100_description/lib/jdcobot_100_description
+writing list of installed files to '/home/i/ros2_ws/build/jdcobot_100_description/install.log'

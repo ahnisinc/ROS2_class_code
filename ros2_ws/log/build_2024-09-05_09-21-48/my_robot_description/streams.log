@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/i/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/i/ros2_ws/install/jdamr_ros_03:/home/i/ros2_ws/install/webcam_pub:/home/i/ros2_ws/install/py_pubsub:/home/i/ros2_ws/install/py_srvcli:/home/i/ros2_ws/install/py_launch_example:/home/i/ros2_ws/install/my_package_py:/home/i/ros2_ws/install/my_camera:/home/i/ros2_ws/install/jdcobot_100_description:/opt/ros/humble /usr/bin/cmake --build /home/i/ros2_ws/build/my_robot_description -- -j4 -l4
+[0.063s] Invoked command in '/home/i/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/i/ros2_ws/install/jdamr_ros_03:/home/i/ros2_ws/install/webcam_pub:/home/i/ros2_ws/install/py_pubsub:/home/i/ros2_ws/install/py_srvcli:/home/i/ros2_ws/install/py_launch_example:/home/i/ros2_ws/install/my_package_py:/home/i/ros2_ws/install/my_camera:/home/i/ros2_ws/install/jdcobot_100_description:/opt/ros/humble /usr/bin/cmake --build /home/i/ros2_ws/build/my_robot_description -- -j4 -l4
+[0.103s] Invoking command in '/home/i/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/i/ros2_ws/install/jdamr_ros_03:/home/i/ros2_ws/install/webcam_pub:/home/i/ros2_ws/install/py_pubsub:/home/i/ros2_ws/install/py_srvcli:/home/i/ros2_ws/install/py_launch_example:/home/i/ros2_ws/install/my_package_py:/home/i/ros2_ws/install/my_camera:/home/i/ros2_ws/install/jdcobot_100_description:/opt/ros/humble /usr/bin/cmake --install /home/i/ros2_ws/build/my_robot_description
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.109s] -- Installing: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/xxpan_tilt.urdf
+[0.109s] -- Installing: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/pan_tilt.urdf
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.109s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.110s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.110s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.110s] -- Up-to-date: /home/i/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.112s] Invoked command in '/home/i/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/i/ros2_ws/install/jdamr_ros_03:/home/i/ros2_ws/install/webcam_pub:/home/i/ros2_ws/install/py_pubsub:/home/i/ros2_ws/install/py_srvcli:/home/i/ros2_ws/install/py_launch_example:/home/i/ros2_ws/install/my_package_py:/home/i/ros2_ws/install/my_camera:/home/i/ros2_ws/install/jdcobot_100_description:/opt/ros/humble /usr/bin/cmake --install /home/i/ros2_ws/build/my_robot_description

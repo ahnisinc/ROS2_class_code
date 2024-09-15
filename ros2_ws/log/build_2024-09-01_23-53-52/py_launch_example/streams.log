@@ -1,0 +1,35 @@
+[0.751s] Invoking command in '/home/i/ros2_ws/src/py_launch_example': PYTHONPATH=/home/i/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/i/ros2_ws/build/py_launch_example/build install --record /home/i/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[0.903s] running egg_info
+[0.904s] creating ../../build/py_launch_example/py_launch_example.egg-info
+[0.904s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.905s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.905s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.905s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.905s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.906s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.907s] running build_py
+[0.907s] creating /home/i/ros2_ws/build/py_launch_example/build
+[0.907s] creating /home/i/ros2_ws/build/py_launch_example/build/lib
+[0.907s] creating /home/i/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[0.908s] copying py_launch_example/__init__.py -> /home/i/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[0.908s] running install
+[0.908s] running install_lib
+[0.908s] creating /home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.909s] copying /home/i/ros2_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.909s] byte-compiling /home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc
+[0.909s] running install_data
+[0.909s] creating /home/i/ros2_ws/install/py_launch_example/share/ament_index
+[0.909s] creating /home/i/ros2_ws/install/py_launch_example/share/ament_index/resource_index
+[0.909s] creating /home/i/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[0.909s] copying resource/py_launch_example -> /home/i/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/i/ros2_ws/install/py_launch_example/share/py_launch_example
+[0.909s] creating /home/i/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[0.909s] copying launch/my_script_launch.py -> /home/i/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[0.909s] running install_egg_info
+[0.910s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[0.911s] running install_scripts
+[0.928s] writing list of installed files to '/home/i/ros2_ws/build/py_launch_example/install.log'
+[0.944s] Invoked command in '/home/i/ros2_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/i/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/i/ros2_ws/build/py_launch_example/build install --record /home/i/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

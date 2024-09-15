@@ -1,0 +1,46 @@
+[0.454s] Invoking command in '/home/i/ros2_ws/src/my_camera': PYTHONPATH=/home/i/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_camera build --build-base /home/i/ros2_ws/build/my_camera/build install --record /home/i/ros2_ws/build/my_camera/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.596s] creating ../../build/my_camera/my_camera.egg-info
+[0.596s] writing ../../build/my_camera/my_camera.egg-info/PKG-INFO
+[0.596s] writing dependency_links to ../../build/my_camera/my_camera.egg-info/dependency_links.txt
+[0.596s] writing entry points to ../../build/my_camera/my_camera.egg-info/entry_points.txt
+[0.596s] writing requirements to ../../build/my_camera/my_camera.egg-info/requires.txt
+[0.596s] writing top-level names to ../../build/my_camera/my_camera.egg-info/top_level.txt
+[0.596s] writing manifest file '../../build/my_camera/my_camera.egg-info/SOURCES.txt'
+[0.597s] reading manifest file '../../build/my_camera/my_camera.egg-info/SOURCES.txt'
+[0.597s] adding license file 'LICENSE'
+[0.598s] writing manifest file '../../build/my_camera/my_camera.egg-info/SOURCES.txt'
+[0.598s] running build
+[0.598s] running build_py
+[0.598s] creating /home/i/ros2_ws/build/my_camera/build
+[0.599s] creating /home/i/ros2_ws/build/my_camera/build/lib
+[0.599s] creating /home/i/ros2_ws/build/my_camera/build/lib/my_camera
+[0.599s] copying my_camera/webcam_node.py -> /home/i/ros2_ws/build/my_camera/build/lib/my_camera
+[0.599s] copying my_camera/__init__.py -> /home/i/ros2_ws/build/my_camera/build/lib/my_camera
+[0.599s] copying my_camera/usbcam_node.py -> /home/i/ros2_ws/build/my_camera/build/lib/my_camera
+[0.599s] copying my_camera/ip_stream_node.py -> /home/i/ros2_ws/build/my_camera/build/lib/my_camera
+[0.599s] running install
+[0.599s] running install_lib
+[0.600s] creating /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera
+[0.600s] copying /home/i/ros2_ws/build/my_camera/build/lib/my_camera/webcam_node.py -> /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera
+[0.600s] copying /home/i/ros2_ws/build/my_camera/build/lib/my_camera/__init__.py -> /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera
+[0.600s] copying /home/i/ros2_ws/build/my_camera/build/lib/my_camera/usbcam_node.py -> /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera
+[0.600s] copying /home/i/ros2_ws/build/my_camera/build/lib/my_camera/ip_stream_node.py -> /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera
+[0.600s] byte-compiling /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera/webcam_node.py to webcam_node.cpython-310.pyc
+[0.600s] byte-compiling /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera/__init__.py to __init__.cpython-310.pyc
+[0.600s] byte-compiling /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera/usbcam_node.py to usbcam_node.cpython-310.pyc
+[0.600s] byte-compiling /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera/ip_stream_node.py to ip_stream_node.cpython-310.pyc
+[0.602s] running install_data
+[0.602s] creating /home/i/ros2_ws/install/my_camera/share/ament_index
+[0.602s] creating /home/i/ros2_ws/install/my_camera/share/ament_index/resource_index
+[0.602s] creating /home/i/ros2_ws/install/my_camera/share/ament_index/resource_index/packages
+[0.602s] copying resource/my_camera -> /home/i/ros2_ws/install/my_camera/share/ament_index/resource_index/packages
+[0.602s] copying package.xml -> /home/i/ros2_ws/install/my_camera/share/my_camera
+[0.602s] running install_egg_info
+[0.602s] Copying ../../build/my_camera/my_camera.egg-info to /home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages/my_camera-0.0.0-py3.10.egg-info
+[0.602s] running install_scripts
+[0.628s] Installing ip_stream_node script to /home/i/ros2_ws/install/my_camera/lib/my_camera
+[0.629s] Installing usbcam_node script to /home/i/ros2_ws/install/my_camera/lib/my_camera
+[0.629s] Installing webcam_node script to /home/i/ros2_ws/install/my_camera/lib/my_camera
+[0.629s] writing list of installed files to '/home/i/ros2_ws/build/my_camera/install.log'
+[0.645s] Invoked command in '/home/i/ros2_ws/src/my_camera' returned '0': PYTHONPATH=/home/i/ros2_ws/build/my_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_camera build --build-base /home/i/ros2_ws/build/my_camera/build install --record /home/i/ros2_ws/build/my_camera/install.log --single-version-externally-managed install_data

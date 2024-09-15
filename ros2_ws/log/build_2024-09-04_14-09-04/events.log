@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000687] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000748] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000761] (-) JobUnselected: {'identifier': 'cv_msg'}
+[0.000768] (-) JobUnselected: {'identifier': 'jdamr_ros_01'}
+[0.000775] (-) JobUnselected: {'identifier': 'jdamr_ros_02'}
+[0.000782] (-) JobUnselected: {'identifier': 'jdamr_ros_03'}
+[0.000788] (-) JobUnselected: {'identifier': 'jdcobot_100_description'}
+[0.000795] (-) JobUnselected: {'identifier': 'my_camera'}
+[0.000801] (-) JobUnselected: {'identifier': 'my_package_cpp'}
+[0.000808] (-) JobUnselected: {'identifier': 'my_package_py'}
+[0.000815] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.000821] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000828] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000834] (-) JobUnselected: {'identifier': 'ros_cv_center'}
+[0.000841] (-) JobUnselected: {'identifier': 'ros_cv_py'}
+[0.000847] (-) JobUnselected: {'identifier': 'ros_serial_py'}
+[0.000853] (-) JobUnselected: {'identifier': 'ros_topic'}
+[0.000859] (-) JobUnselected: {'identifier': 'ros_topic_py'}
+[0.000866] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000874] (webcam_pub) JobQueued: {'identifier': 'webcam_pub', 'dependencies': OrderedDict()}
+[0.000916] (webcam_pub) JobStarted: {'identifier': 'webcam_pub'}
+[0.102499] (-) TimerEvent: {}
+[0.203717] (-) TimerEvent: {}
+[0.305708] (-) TimerEvent: {}
+[0.406168] (-) TimerEvent: {}
+[0.506676] (-) TimerEvent: {}
+[0.607538] (-) TimerEvent: {}
+[0.657962] (webcam_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/webcam_pub', 'build', '--build-base', '/home/i/ros2_ws/build/webcam_pub/build', 'install', '--record', '/home/i/ros2_ws/build/webcam_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/i/ros2_ws/src/webcam_pub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'i', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/i', 'OLDPWD': '/home/i/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1149', 'SYSTEMD_EXEC_PID': '1319', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2049', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'i', 'JOURNAL_STREAM': '8:10726', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/1279,unix/ros2:/tmp/.ICE-unix/1279', 'INVOCATION_ID': '075ffbddf4e744598bb8d3134dfe09c1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DJMBT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:16cc6844-e114-4ff7-b578-4940437515a9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/i/ros2_ws/build/webcam_pub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/i/ros2_ws/build/webcam_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.707950] (-) TimerEvent: {}
+[0.793421] (webcam_pub) StdoutLine: {'line': b'running egg_info\n'}
+[0.793603] (webcam_pub) StdoutLine: {'line': b'creating ../../build/webcam_pub/webcam_pub.egg-info\n'}
+[0.793642] (webcam_pub) StdoutLine: {'line': b'writing ../../build/webcam_pub/webcam_pub.egg-info/PKG-INFO\n'}
+[0.793671] (webcam_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/webcam_pub/webcam_pub.egg-info/dependency_links.txt\n'}
+[0.793700] (webcam_pub) StdoutLine: {'line': b'writing entry points to ../../build/webcam_pub/webcam_pub.egg-info/entry_points.txt\n'}
+[0.793730] (webcam_pub) StdoutLine: {'line': b'writing requirements to ../../build/webcam_pub/webcam_pub.egg-info/requires.txt\n'}
+[0.793756] (webcam_pub) StdoutLine: {'line': b'writing top-level names to ../../build/webcam_pub/webcam_pub.egg-info/top_level.txt\n'}
+[0.793782] (webcam_pub) StdoutLine: {'line': b"writing manifest file '../../build/webcam_pub/webcam_pub.egg-info/SOURCES.txt'\n"}
+[0.794212] (webcam_pub) StdoutLine: {'line': b"reading manifest file '../../build/webcam_pub/webcam_pub.egg-info/SOURCES.txt'\n"}
+[0.795493] (webcam_pub) StdoutLine: {'line': b"writing manifest file '../../build/webcam_pub/webcam_pub.egg-info/SOURCES.txt'\n"}
+[0.795626] (webcam_pub) StdoutLine: {'line': b'running build\n'}
+[0.795661] (webcam_pub) StdoutLine: {'line': b'running build_py\n'}
+[0.795711] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/webcam_pub/build\n'}
+[0.795740] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/webcam_pub/build/lib\n'}
+[0.795766] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub\n'}
+[0.795790] (webcam_pub) StdoutLine: {'line': b'copying webcam_pub/__init__.py -> /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub\n'}
+[0.795822] (webcam_pub) StdoutLine: {'line': b'copying webcam_pub/webcam_pub_node.py -> /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub\n'}
+[0.795847] (webcam_pub) StdoutLine: {'line': b'running install\n'}
+[0.795871] (webcam_pub) StdoutLine: {'line': b'running install_lib\n'}
+[0.797370] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub\n'}
+[0.797476] (webcam_pub) StdoutLine: {'line': b'copying /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub/__init__.py -> /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub\n'}
+[0.797537] (webcam_pub) StdoutLine: {'line': b'copying /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub/webcam_pub_node.py -> /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub\n'}
+[0.797570] (webcam_pub) StdoutLine: {'line': b'byte-compiling /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.797599] (webcam_pub) StdoutLine: {'line': b'byte-compiling /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub/webcam_pub_node.py to webcam_pub_node.cpython-310.pyc\n'}
+[0.797627] (webcam_pub) StdoutLine: {'line': b'running install_data\n'}
+[0.797653] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/share\n'}
+[0.797679] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/share/ament_index\n'}
+[0.797718] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/share/ament_index/resource_index\n'}
+[0.797747] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/share/ament_index/resource_index/packages\n'}
+[0.797771] (webcam_pub) StdoutLine: {'line': b'copying resource/webcam_pub -> /home/i/ros2_ws/install/webcam_pub/share/ament_index/resource_index/packages\n'}
+[0.797797] (webcam_pub) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/webcam_pub/share/webcam_pub\n'}
+[0.797821] (webcam_pub) StdoutLine: {'line': b'copying package.xml -> /home/i/ros2_ws/install/webcam_pub/share/webcam_pub\n'}
+[0.797844] (webcam_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.799708] (webcam_pub) StdoutLine: {'line': b'Copying ../../build/webcam_pub/webcam_pub.egg-info to /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub-0.0.0-py3.10.egg-info\n'}
+[0.799816] (webcam_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.808356] (-) TimerEvent: {}
+[0.810511] (webcam_pub) StdoutLine: {'line': b"writing list of installed files to '/home/i/ros2_ws/build/webcam_pub/install.log'\n"}
+[0.823625] (webcam_pub) CommandEnded: {'returncode': 0}
+[0.840812] (webcam_pub) JobEnded: {'identifier': 'webcam_pub', 'rc': 0}
+[0.841447] (-) EventReactorShutdown: {}

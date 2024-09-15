@@ -1,0 +1,22 @@
+[0.462s] Invoking command in '/home/i/ros2_ws/src/jdcobot_100_description': PYTHONPATH=/home/i/ros2_ws/build/jdcobot_100_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdcobot_100_description build --build-base /home/i/ros2_ws/build/jdcobot_100_description/build install --record /home/i/ros2_ws/build/jdcobot_100_description/install.log --single-version-externally-managed install_data
+[0.608s] running egg_info
+[0.608s] writing ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/PKG-INFO
+[0.608s] writing dependency_links to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/dependency_links.txt
+[0.608s] writing entry points to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/entry_points.txt
+[0.608s] writing requirements to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/requires.txt
+[0.608s] writing top-level names to ../../build/jdcobot_100_description/jdcobot_100_description.egg-info/top_level.txt
+[0.610s] reading manifest file '../../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+[0.613s] writing manifest file '../../build/jdcobot_100_description/jdcobot_100_description.egg-info/SOURCES.txt'
+[0.613s] running build
+[0.613s] running build_py
+[0.614s] running install
+[0.614s] running install_lib
+[0.616s] running install_data
+[0.616s] running install_egg_info
+[0.616s] removing '/home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description-1.0.0-py3.10.egg-info' (and everything under it)
+[0.617s] Copying ../../build/jdcobot_100_description/jdcobot_100_description.egg-info to /home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages/jdcobot_100_description-1.0.0-py3.10.egg-info
+[0.620s] running install_scripts
+[0.633s] Installing jdcobot_control script to /home/i/ros2_ws/install/jdcobot_100_description/lib/jdcobot_100_description
+[0.633s] Installing js_5_pub_test script to /home/i/ros2_ws/install/jdcobot_100_description/lib/jdcobot_100_description
+[0.633s] writing list of installed files to '/home/i/ros2_ws/build/jdcobot_100_description/install.log'
+[0.649s] Invoked command in '/home/i/ros2_ws/src/jdcobot_100_description' returned '0': PYTHONPATH=/home/i/ros2_ws/build/jdcobot_100_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdcobot_100_description build --build-base /home/i/ros2_ws/build/jdcobot_100_description/build install --record /home/i/ros2_ws/build/jdcobot_100_description/install.log --single-version-externally-managed install_data

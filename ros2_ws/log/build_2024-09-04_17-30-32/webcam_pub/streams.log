@@ -1,0 +1,25 @@
+[0.626s] Invoking command in '/home/i/ros2_ws/src/webcam_pub': PYTHONPATH=/home/i/ros2_ws/build/webcam_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam_pub build --build-base /home/i/ros2_ws/build/webcam_pub/build install --record /home/i/ros2_ws/build/webcam_pub/install.log --single-version-externally-managed install_data
+[0.753s] running egg_info
+[0.753s] writing ../../build/webcam_pub/webcam_pub.egg-info/PKG-INFO
+[0.754s] writing dependency_links to ../../build/webcam_pub/webcam_pub.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../build/webcam_pub/webcam_pub.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/webcam_pub/webcam_pub.egg-info/requires.txt
+[0.755s] writing top-level names to ../../build/webcam_pub/webcam_pub.egg-info/top_level.txt
+[0.756s] reading manifest file '../../build/webcam_pub/webcam_pub.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/webcam_pub/webcam_pub.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.761s] copying webcam_pub/cam_publisher.py -> /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub
+[0.761s] running install
+[0.761s] running install_lib
+[0.762s] copying /home/i/ros2_ws/build/webcam_pub/build/lib/webcam_pub/cam_publisher.py -> /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub
+[0.762s] byte-compiling /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub/cam_publisher.py to cam_publisher.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] running install_egg_info
+[0.764s] removing '/home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.764s] Copying ../../build/webcam_pub/webcam_pub.egg-info to /home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages/webcam_pub-0.0.0-py3.10.egg-info
+[0.765s] running install_scripts
+[0.779s] Installing cam_pub script to /home/i/ros2_ws/install/webcam_pub/lib/webcam_pub
+[0.779s] Installing webcam_pub script to /home/i/ros2_ws/install/webcam_pub/lib/webcam_pub
+[0.780s] writing list of installed files to '/home/i/ros2_ws/build/webcam_pub/install.log'
+[0.795s] Invoked command in '/home/i/ros2_ws/src/webcam_pub' returned '0': PYTHONPATH=/home/i/ros2_ws/build/webcam_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam_pub build --build-base /home/i/ros2_ws/build/webcam_pub/build install --record /home/i/ros2_ws/build/webcam_pub/install.log --single-version-externally-managed install_data

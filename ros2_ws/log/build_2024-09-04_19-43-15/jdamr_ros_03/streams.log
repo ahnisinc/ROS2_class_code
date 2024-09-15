@@ -1,0 +1,44 @@
+[0.525s] Invoking command in '/home/i/ros2_ws/src/ros2_study/jdamr_ros_03': PYTHONPATH=/home/i/ros2_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/jdamr_ros_03 build --build-base /home/i/ros2_ws/build/jdamr_ros_03/build install --record /home/i/ros2_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data
+[0.670s] running egg_info
+[0.670s] creating ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info
+[0.670s] writing ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/PKG-INFO
+[0.670s] writing dependency_links to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/dependency_links.txt
+[0.670s] writing entry points to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/entry_points.txt
+[0.670s] writing requirements to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/requires.txt
+[0.670s] writing top-level names to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/top_level.txt
+[0.670s] writing manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[0.672s] reading manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[0.672s] adding license file 'LICENSE'
+[0.672s] writing manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[0.672s] running build
+[0.672s] running build_py
+[0.673s] creating /home/i/ros2_ws/build/jdamr_ros_03/build
+[0.673s] creating /home/i/ros2_ws/build/jdamr_ros_03/build/lib
+[0.673s] creating /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[0.673s] copying jdamr_ros_03/__init__.py -> /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[0.673s] copying jdamr_ros_03/jdamr_ros_03.py -> /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[0.673s] running install
+[0.673s] running install_lib
+[0.673s] creating /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03
+[0.675s] copying /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/__init__.py -> /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03
+[0.675s] copying /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/jdamr_ros_03.py -> /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03
+[0.675s] byte-compiling /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03/__init__.py to __init__.cpython-310.pyc
+[0.677s] byte-compiling /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03/jdamr_ros_03.py to jdamr_ros_03.cpython-310.pyc
+[0.677s] running install_data
+[0.677s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index
+[0.678s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index
+[0.678s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages
+[0.678s] copying resource/jdamr_ros_03 -> /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages
+[0.678s] copying package.xml -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03
+[0.678s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch
+[0.678s] copying launch/jdamr_launch.py -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch
+[0.678s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf
+[0.678s] copying urdf/jdamr.urdf -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf
+[0.678s] creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz
+[0.678s] copying rviz/jdamr_rviz.rviz -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz
+[0.678s] running install_egg_info
+[0.680s] Copying ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info to /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03-0.0.0-py3.10.egg-info
+[0.680s] running install_scripts
+[0.692s] Installing jdamr_03 script to /home/i/ros2_ws/install/jdamr_ros_03/lib/jdamr_ros_03
+[0.693s] writing list of installed files to '/home/i/ros2_ws/build/jdamr_ros_03/install.log'
+[0.711s] Invoked command in '/home/i/ros2_ws/src/ros2_study/jdamr_ros_03' returned '0': PYTHONPATH=/home/i/ros2_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/jdamr_ros_03 build --build-base /home/i/ros2_ws/build/jdamr_ros_03/build install --record /home/i/ros2_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+Invoking command in '/home/i/ros2_ws/build/my_package_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/i/ros2_ws/build/my_package_cpp -- -j4 -l4
+Invoked command in '/home/i/ros2_ws/build/my_package_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/i/ros2_ws/build/my_package_cpp -- -j4 -l4
+Invoking command in '/home/i/ros2_ws/build/my_package_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/i/ros2_ws/build/my_package_cpp
+Invoked command in '/home/i/ros2_ws/build/my_package_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/i/ros2_ws/build/my_package_cpp

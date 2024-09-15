@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000182] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000192] (-) JobUnselected: {'identifier': 'cv_msg'}
+[0.000199] (-) JobUnselected: {'identifier': 'jdamr_ros_01'}
+[0.000206] (-) JobUnselected: {'identifier': 'jdamr_ros_02'}
+[0.000213] (-) JobUnselected: {'identifier': 'jdcobot_100_description'}
+[0.000220] (-) JobUnselected: {'identifier': 'my_camera'}
+[0.000227] (-) JobUnselected: {'identifier': 'my_package_cpp'}
+[0.000234] (-) JobUnselected: {'identifier': 'my_package_py'}
+[0.000240] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.000247] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000287] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000296] (-) JobUnselected: {'identifier': 'ros_cv_center'}
+[0.000304] (-) JobUnselected: {'identifier': 'ros_cv_py'}
+[0.000310] (-) JobUnselected: {'identifier': 'ros_serial_py'}
+[0.000317] (-) JobUnselected: {'identifier': 'ros_topic'}
+[0.000324] (-) JobUnselected: {'identifier': 'ros_topic_py'}
+[0.000330] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000337] (-) JobUnselected: {'identifier': 'webcam_pub'}
+[0.000346] (jdamr_ros_03) JobQueued: {'identifier': 'jdamr_ros_03', 'dependencies': OrderedDict()}
+[0.000359] (jdamr_ros_03) JobStarted: {'identifier': 'jdamr_ros_03'}
+[0.156978] (-) TimerEvent: {}
+[0.257635] (-) TimerEvent: {}
+[0.360691] (-) TimerEvent: {}
+[0.461310] (-) TimerEvent: {}
+[0.524714] (jdamr_ros_03) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/jdamr_ros_03', 'build', '--build-base', '/home/i/ros2_ws/build/jdamr_ros_03/build', 'install', '--record', '/home/i/ros2_ws/build/jdamr_ros_03/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/i/ros2_ws/src/ros2_study/jdamr_ros_03', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'i', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/i/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/i', 'OLDPWD': '/home/i', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1111', 'SYSTEMD_EXEC_PID': '1280', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2196', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/i/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'i', 'JOURNAL_STREAM': '8:9888', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'i', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/1234,unix/ros2:/tmp/.ICE-unix/1234', 'INVOCATION_ID': 'c220412e45f848db85fa1f1b5281fd80', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BUACT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/i/ros2_ws/install/webcam_pub:/home/i/ros2_ws/install/py_pubsub:/home/i/ros2_ws/install/tutorial_interfaces:/home/i/ros2_ws/install/py_srvcli:/home/i/ros2_ws/install/py_launch_example:/home/i/ros2_ws/install/my_package_py:/home/i/ros2_ws/install/my_package_cpp:/home/i/ros2_ws/install/my_camera:/home/i/ros2_ws/install/jdcobot_100_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:fdaa5cd0-e191-4a3a-9e02-067f124ad960', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/i/ros2_ws/build/jdamr_ros_03', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/i/ros2_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages:/home/i/ros2_ws/install/webcam_pub/lib/python3.10/site-packages:/home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/i/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/i/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/i/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/i/ros2_ws/install/my_package_py/lib/python3.10/site-packages:/home/i/ros2_ws/install/my_camera/lib/python3.10/site-packages:/home/i/ros2_ws/install/jdcobot_100_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/i/ros2_ws/install/tutorial_interfaces:/home/i/ros2_ws/install/my_package_cpp'}, 'shell': False}
+[0.561772] (-) TimerEvent: {}
+[0.662251] (-) TimerEvent: {}
+[0.669336] (jdamr_ros_03) StdoutLine: {'line': b'running egg_info\n'}
+[0.670462] (jdamr_ros_03) StdoutLine: {'line': b'creating ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info\n'}
+[0.670576] (jdamr_ros_03) StdoutLine: {'line': b'writing ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/PKG-INFO\n'}
+[0.670605] (jdamr_ros_03) StdoutLine: {'line': b'writing dependency_links to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/dependency_links.txt\n'}
+[0.670630] (jdamr_ros_03) StdoutLine: {'line': b'writing entry points to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/entry_points.txt\n'}
+[0.670655] (jdamr_ros_03) StdoutLine: {'line': b'writing requirements to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/requires.txt\n'}
+[0.670682] (jdamr_ros_03) StdoutLine: {'line': b'writing top-level names to ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/top_level.txt\n'}
+[0.670705] (jdamr_ros_03) StdoutLine: {'line': b"writing manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'\n"}
+[0.671914] (jdamr_ros_03) StdoutLine: {'line': b"reading manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'\n"}
+[0.672114] (jdamr_ros_03) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.672163] (jdamr_ros_03) StdoutLine: {'line': b"writing manifest file '../../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'\n"}
+[0.672194] (jdamr_ros_03) StdoutLine: {'line': b'running build\n'}
+[0.672221] (jdamr_ros_03) StdoutLine: {'line': b'running build_py\n'}
+[0.673162] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/jdamr_ros_03/build\n'}
+[0.673216] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/jdamr_ros_03/build/lib\n'}
+[0.673244] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03\n'}
+[0.673269] (jdamr_ros_03) StdoutLine: {'line': b'copying jdamr_ros_03/__init__.py -> /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03\n'}
+[0.673295] (jdamr_ros_03) StdoutLine: {'line': b'copying jdamr_ros_03/jdamr_ros_03.py -> /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03\n'}
+[0.673319] (jdamr_ros_03) StdoutLine: {'line': b'running install\n'}
+[0.673371] (jdamr_ros_03) StdoutLine: {'line': b'running install_lib\n'}
+[0.673403] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03\n'}
+[0.673430] (jdamr_ros_03) StdoutLine: {'line': b'copying /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/__init__.py -> /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03\n'}
+[0.674946] (jdamr_ros_03) StdoutLine: {'line': b'copying /home/i/ros2_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/jdamr_ros_03.py -> /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03\n'}
+[0.674981] (jdamr_ros_03) StdoutLine: {'line': b'byte-compiling /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03/__init__.py to __init__.cpython-310.pyc\n'}
+[0.676777] (jdamr_ros_03) StdoutLine: {'line': b'byte-compiling /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03/jdamr_ros_03.py to jdamr_ros_03.cpython-310.pyc\n'}
+[0.677626] (jdamr_ros_03) StdoutLine: {'line': b'running install_data\n'}
+[0.677779] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index\n'}
+[0.678165] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index\n'}
+[0.678208] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages\n'}
+[0.678235] (jdamr_ros_03) StdoutLine: {'line': b'copying resource/jdamr_ros_03 -> /home/i/ros2_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages\n'}
+[0.678259] (jdamr_ros_03) StdoutLine: {'line': b'copying package.xml -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03\n'}
+[0.678282] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch\n'}
+[0.678306] (jdamr_ros_03) StdoutLine: {'line': b'copying launch/jdamr_launch.py -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch\n'}
+[0.678331] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf\n'}
+[0.678355] (jdamr_ros_03) StdoutLine: {'line': b'copying urdf/jdamr.urdf -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf\n'}
+[0.678379] (jdamr_ros_03) StdoutLine: {'line': b'creating /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz\n'}
+[0.678402] (jdamr_ros_03) StdoutLine: {'line': b'copying rviz/jdamr_rviz.rviz -> /home/i/ros2_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz\n'}
+[0.678431] (jdamr_ros_03) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.679977] (jdamr_ros_03) StdoutLine: {'line': b'Copying ../../../build/jdamr_ros_03/jdamr_ros_03.egg-info to /home/i/ros2_ws/install/jdamr_ros_03/lib/python3.10/site-packages/jdamr_ros_03-0.0.0-py3.10.egg-info\n'}
+[0.680024] (jdamr_ros_03) StdoutLine: {'line': b'running install_scripts\n'}
+[0.692527] (jdamr_ros_03) StdoutLine: {'line': b'Installing jdamr_03 script to /home/i/ros2_ws/install/jdamr_ros_03/lib/jdamr_ros_03\n'}
+[0.692967] (jdamr_ros_03) StdoutLine: {'line': b"writing list of installed files to '/home/i/ros2_ws/build/jdamr_ros_03/install.log'\n"}
+[0.710689] (jdamr_ros_03) CommandEnded: {'returncode': 0}
+[0.727469] (jdamr_ros_03) JobEnded: {'identifier': 'jdamr_ros_03', 'rc': 0}
+[0.728585] (-) EventReactorShutdown: {}

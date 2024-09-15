@@ -1,0 +1,23 @@
+[0.736s] Invoking command in '/home/i/ros2_ws/src/py_pubsub': PYTHONPATH=/home/i/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/i/ros2_ws/build/py_pubsub/build install --record /home/i/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.879s] running egg_info
+[0.880s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.881s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.881s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.881s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.882s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] copying py_pubsub/publisher_member_function.py -> /home/i/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.886s] running install
+[0.887s] running install_lib
+[0.887s] copying /home/i/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.888s] byte-compiling /home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.889s] running install_data
+[0.889s] running install_egg_info
+[0.889s] removing '/home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.891s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.893s] running install_scripts
+[0.906s] writing list of installed files to '/home/i/ros2_ws/build/py_pubsub/install.log'
+[0.919s] Invoked command in '/home/i/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/i/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/i/ros2_ws/build/py_pubsub/build install --record /home/i/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

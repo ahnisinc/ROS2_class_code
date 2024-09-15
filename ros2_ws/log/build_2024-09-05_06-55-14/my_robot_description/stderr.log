@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:29 (install):
+  install DIRECTORY given non-directory "urdf/pan_tilt.urdf" to install.
+
+[0m
