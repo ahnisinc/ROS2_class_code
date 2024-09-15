@@ -11,16 +11,16 @@ ROS2 실습코드
   - 제가 제공한 imu_publisher.py 파일로 실행함
   - rviz2를 실행시키고 fram_id 는 imu_frame으로 설정
 
-  -### 실행 순서
-  - ros2 run  실행
+  ### 실행 순서
+   #### ros2 run  실행
       $ ros2 run imu_publisher imu_publisher
     
-  - 다른 터미널에서 rviz2 실행
+   #### 다른 터미널에서 rviz2 실행
       $ rviz2
-      Global Options 에서 Fixed Frame 을 imu_frame 으로 입력
-      Displays 밑에 탭에서 add  하여   By topic를 선택
-      /imu, /data, imu 항목을 선택후 ok누름
-    그러면 imu 탭이 추가되고 이곳에서 imu 상태를 볼수 잇는 좌표와 화살표가 나타나게됨
-    imu6050의 움직임에 따라 화살표가 움직이게 됨
+      -Global Options 에서 Fixed Frame 을 imu_frame 으로 입력
+      -Displays 밑에 탭에서 add  하여   By topic를 선택
+      -/imu, /data, imu 항목을 선택후 ok누름
+      -그러면 imu 탭이 추가되고 이곳에서 imu 상태를 볼수 잇는 좌표와 화살표가 나타나게됨
+      -imu6050의 움직임에 따라 화살표가 움직이게 됨
 
     
