@@ -17,10 +17,11 @@ ROS2 실습코드
     
    #### 다른 터미널에서 rviz2 실행
       $ rviz2
-      -Global Options 에서 Fixed Frame 을 imu_frame 으로 입력
-      -Displays 밑에 탭에서 add  하여   By topic를 선택
-      -/imu, /data, imu 항목을 선택후 ok누름
-      -그러면 imu 탭이 추가되고 이곳에서 imu 상태를 볼수 잇는 좌표와 화살표가 나타나게됨
-      -imu6050의 움직임에 따라 화살표가 움직이게 됨
+  
+   -Global Options 에서 Fixed Frame 을 imu_frame 으로 입력
+   -Displays 밑에 탭에서 add  하여   By topic를 선택
+   -/imu, /data, imu 항목을 선택후 ok누름
+   -그러면 imu 탭이 추가되고 이곳에서 imu 상태를 볼수 잇는 좌표와 화살표가 나타나게됨
+   -imu6050의 움직임에 따라 화살표가 움직이게 됨
 
     
