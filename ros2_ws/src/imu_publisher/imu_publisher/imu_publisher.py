@@ -7,9 +7,9 @@ import time
 class IMUPublisher(Node):
     def __init__(self):
         super().__init__('imu_publisher')
-        self.publisher_ = self.create_publisher(Imu, 'imu/data', 10)
+        self.publisher_ = self.create_publisher(Imu, 'imu/data', 100)
         self.serial_port = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)  # Adjust port name
-        self.timer = self.create_timer(0.1, self.timer_callback)
+        self.timer = self.create_timer(0.5, self.timer_callback)
         self.get_logger().info('IMU Publisher node has been started.')
 
     def timer_callback(self):
@@ -27,12 +27,12 @@ class IMUPublisher(Node):
                     imu_msg = Imu()
                     imu_msg.header.stamp = self.get_clock().now().to_msg()
                     imu_msg.header.frame_id = 'imu_frame'
-                    imu_msg.linear_acceleration.x = ax
-                    imu_msg.linear_acceleration.y = ay
-                    imu_msg.linear_acceleration.z = az
-                    imu_msg.angular_velocity.x = gx
-                    imu_msg.angular_velocity.y = gy
-                    imu_msg.angular_velocity.z = gz
+                    imu_msg.linear_acceleration.x = ax / 16384.0
+                    imu_msg.linear_acceleration.y = ay / 16384.0
+                    imu_msg.linear_acceleration.z = az / 16384.0
+                    imu_msg.angular_velocity.x = gx / 131.0
+                    imu_msg.angular_velocity.y = gy / 131.0
+                    imu_msg.angular_velocity.z = gz / 131.0
 
                     # Fill in covariance (optional, can be adjusted)
                     imu_msg.linear_acceleration_covariance = [0.0] * 9
