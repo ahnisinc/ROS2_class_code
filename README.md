@@ -41,4 +41,13 @@ ROS2 실습코드
    - 그러면 imu 탭이 추가되고 이곳에서 imu 상태를 볼수 있는 좌표와 화살표가 나타나게됨
    - imu6050의 움직임에 따라 화살표가 움직이게 됨
 
-    
+## OPENCV 설치 문제
+#### 교재에서 sudo apt install ros-humble-opecv 패키지가 설치가 안되는 문제 발생 (패키지명 변경됨)
+- sudo apt install ros-humble-vision-opencv로 변경됨
+
+      sudo apt install ros-humble-vision-opencv
+  
+- apt-cache로 opencv 관련 패키지 검색후 사용
+
+      apt-cache search opencv
+   
